@@ -1,0 +1,7 @@
+# CampusGo .gitignore
+campusgo.zip
+*.zip
+*.tar.gz
+*.log
+.DS_Store
+Thumbs.db
