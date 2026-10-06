@@ -34,8 +34,11 @@
           <div class="d-flex align-items-center gap-2">
             <h1 class="brand-title">CampusGo</h1>
             <span class="brand-badge-pill">Self-Service</span>
+            <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-2 py-0 ms-1 d-none d-sm-inline-flex align-items-center gap-1" style="font-size:0.75rem; border-color: rgba(255,255,255,0.25);" onclick="Kiosk.showTeamModal()" title="View Team Roar Members">
+              <span>👥 Team Roar</span>
+            </button>
           </div>
-          <p class="brand-subtitle">Smart Campus Kiosk Terminal</p>
+          <p class="brand-subtitle">Smart Campus Kiosk Terminal · <span role="button" class="text-white-50 text-decoration-underline" onclick="Kiosk.showTeamModal()" style="cursor:pointer;" title="Click to view team details">Earl · Honey · Althea</span></p>
         </div>
       </div>
 
