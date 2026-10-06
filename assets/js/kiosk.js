@@ -807,6 +807,33 @@ const Kiosk = {
         }
       }
     });
+  },
+
+  showTeamModal() {
+    this.playBeep(660);
+    Swal.fire({
+      title: '<strong style="color:#7C3AED;">CampusGo · Team Roar</strong>',
+      icon: 'info',
+      html: `
+        <div class="text-start px-2 py-1" style="font-size:0.92rem; color:#333;">
+          <p class="mb-2"><strong>IT415 Practical Examination</strong></p>
+          <div class="p-2 mb-2 rounded" style="background:#f5f3ff; border:1px solid #ddd6fe;">
+            <strong>👑 Earl Masana</strong> (<code>@url-izx</code>)<br>
+            <small class="text-muted">Lead Developer · Backend Architecture & Database Transactions</small>
+          </div>
+          <div class="p-2 mb-2 rounded" style="background:#f5f3ff; border:1px solid #ddd6fe;">
+            <strong>💻 Honey Jean Ambaic</strong> (<code>@hanixsyyy</code>)<br>
+            <small class="text-muted">Frontend Kiosk UI, Touch Steppers & Cash Keypad Engine</small>
+          </div>
+          <div class="p-2 rounded" style="background:#f5f3ff; border:1px solid #ddd6fe;">
+            <strong>🎨 Althea Clariz Compoc</strong> (<code>@teiyahh</code>)<br>
+            <small class="text-muted">QuestLearn Design System, Thermal Receipt & Project Documentation</small>
+          </div>
+        </div>
+      `,
+      confirmButtonText: 'Close',
+      confirmButtonColor: '#7C3AED'
+    });
   }
 };
 

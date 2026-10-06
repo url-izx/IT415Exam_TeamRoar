@@ -166,7 +166,7 @@ campusgo/
 
 ### **Member 1: Earl Masana (`url-izx`)**
 * **Assigned Role**: Project Lead & Backend / Database Architecture
-* **Branch**: `member/earl-backend-database`
+* **Branch**: `earl`
 * **Contributions**:
   * Designed the relational database schema (`products`, `transactions`, `transaction_items`).
   * Implemented PDO transaction handling in `api/process_payment.php` with server-side validation.
@@ -175,7 +175,7 @@ campusgo/
 
 ### **Member 2: Honey Jean Ambaic (`hanixsyyy`)**
 * **Assigned Role**: Frontend UI/UX & Kiosk State Engine
-* **Branch**: `member/honey-frontend-kiosk`
+* **Branch**: `honey`
 * **Contributions**:
   * Implemented the touchscreen numeric keypad and quick cash bill presets.
   * Developed live change calculation math and insufficient payment error handling.
@@ -184,7 +184,7 @@ campusgo/
 
 ### **Member 3: Althea Clariz Compoc (`teiyahh`)**
 * **Assigned Role**: Design Systems & Thermal Receipt Engine
-* **Branch**: `member/althea-design-receipt-docs`
+* **Branch**: `althea`
 * **Contributions**:
   * Engineered the QuestLearn-inspired deep obsidian violet and luminous purple design tokens.
   * Integrated the official CampusGo logo and responsive overflow-protected navigation bar.
@@ -199,9 +199,9 @@ Team Roar adhered to standard feature branch and integration workflows:
 
 1. **Integration Branch**: `main` serves as the verified production integration branch.
 2. **Dedicated Member Branches**:
-   * `member/earl-backend-database` (Lead: Earl Masana / `@url-izx`)
-   * `member/honey-frontend-kiosk` (Lead: Honey Jean Ambaic / `@hanixsyyy`)
-   * `member/althea-design-receipt-docs` (Lead: Althea Clariz Compoc / `@teiyahh`)
+   * `earl` (Lead: Earl Masana / `@url-izx`)
+   * `honey` (Lead: Honey Jean Ambaic / `@hanixsyyy`)
+   * `althea` (Lead: Althea Clariz Compoc / `@teiyahh`)
 3. **Feature Branches**:
    * `feature/setup-and-database`: MySQL schema, seed data, and PDO connection.
    * `feature/kiosk-interface`: HTML structure, Bootstrap grid, and responsive header.
